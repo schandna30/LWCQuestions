@@ -39,3 +39,46 @@ let result2 = (str) => {
 Example:
 Input: "hello"
 Output: { h: 1, e: 1, l: 2, o: 1 }*/
+
+//console.log(result3('hello my name is simran'))
+
+/*Write a function that takes an array of numbers as input and returns a new array with all the even numbers removed.
+
+Example:
+Input: [1, 2, 3, 4, 5, 6]
+Output: [1, 3, 5]*/
+let result4 = (arr) => {
+  
+ let arrArray= arr.filter((currItem)=>{
+   return currItem%2!==0;
+
+
+ });
+  console.log(arrArray)
+};
+console.log(result4([1,2,3,4,5,6,798,80,81]))
+
+
+
+
+
+/*Write a function that takes an array of strings as input and returns a new array with only the strings that have a length g
+
+Example:
+Input: ["apple", "banana", "grape", "orange", "kiwi"]
+Output: ["apple", "banana", "orange"]*/
+
+
+
+/*Write a function that takes an array of numbers as input and returns a new array with only the unique elements (remove duplicates).
+
+Example:
+Input: [1, 2, 2, 3, 4, 4, 5]
+Output: [1, 2, 3, 4, 5]*/
+
+let result6= (arr)=>{
+  let myset = new Set(arr);
+  return myset;
+}
+console.log(result6([1, 2, 2, 3, 4, 4, 5,1,1,1,6]))
+
